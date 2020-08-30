@@ -37,7 +37,7 @@ export class Products extends Component {
     }
 
     onSortChange(event) {
-        const value = event.value.value;
+        const value = event.value;
 
         if (value.indexOf('!') === 0) {
             this.setState({
