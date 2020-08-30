@@ -3,7 +3,7 @@ import Products from './components/Products/Products'
 import Navbar from './components/Navbar/Navbar';
 import 'primeicons/primeicons.css'
 import 'primereact/resources/primereact.min.css';
-import 'primereact/resources/themes/nova-light/theme.css'
+import './styles/nova-light/theme.css'
 import 'primeflex/primeflex.css';
 import { BrowserRouter as Router} from 'react-router-dom'
 import Cart from './components/pages/Cart.js'
